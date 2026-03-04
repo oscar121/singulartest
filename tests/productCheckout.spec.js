@@ -16,6 +16,7 @@ test.describe('Product Checkout', () => {
     await loginPage.login(testData.success.username, testData.success.password);
     
     //Chekc products list
+    expect(page.locator('.inventory_container')).toBeVisible();
     const count = await productPage.checkProducts();
     const productname = await productPage.getProductName();
 
