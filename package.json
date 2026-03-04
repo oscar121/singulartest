@@ -1,0 +1,23 @@
+{
+  "name": "singulartest",
+  "version": "1.0.0",
+  "description": "Singular technical test",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar121/singulartest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oscar121/singulartest/issues"
+  },
+  "homepage": "https://github.com/oscar121/singulartest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  }
+}
