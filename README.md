@@ -1,10 +1,10 @@
 # Oscar Perdomo test
 
-This is a Playwrite test suit that includes the checking of the Login page, Product page and Checkout process.
+This is a Playwright test suit that includes the checking of the Login page, Product page and Checkout process.
 
 # Prequisites
 Nodejs
-Playwrite
+Playwright
 Npm
 
 ## Installation
