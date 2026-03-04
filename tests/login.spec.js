@@ -13,8 +13,8 @@ test.describe('Login', () => {
     await loginPage.login(testData.success.username, testData.success.password);
     const count = await productPage.checkProducts();
 
-    expect(page.locator('.inventory_container')).toBeVisible();
-    expect(count).toBeGreaterThan(1);
+    await expect(page.locator('[data-test="inventory-container"]')).toBeVisible();
+    await expect(count).toBeGreaterThan(1);
   });
 
   test('with invalid credentials', async ({ page }) => {
